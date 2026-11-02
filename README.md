@@ -29,7 +29,7 @@ Un negocio de streaming maneja cientos de cuentas, miles de perfiles y clientes 
 - **Cobros y movimientos:** deudas, pagos parciales, saldo a favor, mora y reportes.
 - **Clientes y revendedores:** fichas completas, clientes finales de cada revendedor e importación desde Excel.
 - **Portal del cliente:** con la marca del negocio, verificación opcional y enlace de un solo propietario.
-- **WhatsApp integrado:** chat tipo WhatsApp Web dentro del gestor (dos números: normal y Business), plantillas, campañas y **automatizaciones** (recordatorios, vencidos, entrega de accesos al vender, cobros, cambio de contraseña y confirmación de pago).
+- **WhatsApp integrado:** chat tipo WhatsApp Web dentro del gestor (dos números: normal y Business) con etiquetas automáticas por cliente, respuestas rápidas con imagen o video, plantillas, campañas y **automatizaciones** (recordatorios, vencidos, entrega de accesos al vender, cobros, cambio de contraseña y confirmación de pago).
 - **Equipo:** administradores y vendedores con permisos distintos (un vendedor **nunca ve costos ni ganancias**).
 - **Dominio propio:** cada negocio puede usar su subdominio o su propio dominio.
 - **Panel maestro:** la plataforma administra negocios, planes, pagos, soporte por tickets y avisos.
@@ -153,9 +153,9 @@ export function envolver(texto: string, inicio: number, fin: number, tipo: Envol
 
 | | |
 |---|---|
-| Pruebas automáticas | **418** (reglas de negocio, mensajes, fechas, permisos y aislamiento) |
+| Pruebas automáticas | **482** (reglas de negocio, mensajes, fechas, permisos y aislamiento) |
 | Pruebas de aislamiento entre negocios | **169** |
-| Cambios de base de datos versionados | **96** migraciones, aplicadas primero en pruebas y luego en producción |
+| Cambios de base de datos versionados | **97** migraciones, aplicadas primero en pruebas y luego en producción |
 | Tipado | TypeScript estricto en todo el sistema |
 | Interfaz | Español, modo claro, oscuro y automático, celular y computador |
 
